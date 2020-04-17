@@ -1,4 +1,4 @@
-#  SQLTruncScanner - Scan endpoints for possible SQL Truncation vulnerabilities.
+#  [WIP]SQLTruncScanner - Scan endpoints for possible SQL Truncation vulnerabilities.
 ![Follow on Twitter](https://img.shields.io/twitter/follow/initroott?label=Follow%20&style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/initroot/BurpSQLTruncSanner)
 ![GitHub stars](https://img.shields.io/github/stars/initroot/BurpSQLTruncSanner)
