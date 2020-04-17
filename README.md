@@ -45,8 +45,9 @@ I will try to explain my current implementation, this might not be the best way 
 Once the baseline is established, threading is kicked off for the paramter fuzzing which happens in a new class. The fuzzing will loop each parameter and loop a payload set of 5 --> 10 --> 15 --> 20 --> 30 --> 40 characters. Whenever the response is different from the baseline an issue will be raised with the parameter and payload set found potentially vulnerable.
 
 ## Todo
-- [ ]This might break usage in Community Edition, but a passive scanner needs to be invoked instead of the current implementation.
-- [ ]Better threading as the current implementation is horrible.
-- [ ]Burp Issue currently do not receive the HTTP Message from the check, and displays the original request, needs to be fixed.
-- [ ]Cleanup, very messy at the moment
+
+- [ ] This might break usage in Community Edition, but a passive scanner needs to be invoked instead of the current implementation.
+- [ ] Better threading as the current implementation is horrible.
+- [ ] Burp Issue currently do not receive the HTTP Message from the check, and displays the original request, needs to be fixed.
+- [ ] Cleanup, very messy at the moment
 
